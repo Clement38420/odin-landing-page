@@ -116,7 +116,7 @@ a {
 
 .quote {
     background: #e5e7eb;
-    padding: 100px 150px;
+    padding: 100px 250px;
 }
 
 .quote .text {
@@ -129,4 +129,34 @@ a {
     color: #1F2937;
     font-weight: bold;
     text-align: end;
+}
+
+div.sign-up {
+    padding: 100px 150px;
+}
+
+.sign-up-box {
+    background: #3882f6;
+    border-radius: 8px;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up .title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 500;
+}
+
+.sign-up .text {
+    font-size: 18px;
+    font-weight: 300;
+    color: #e5e7eb;
+}
+
+.sign-up.bordered {
+    border: 2px solid #f9faf8;
+    align-self: center;
+    margin-left: 16px;
 }
