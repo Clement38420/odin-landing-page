@@ -55,7 +55,7 @@ body {
     margin-bottom: 16px;
 }
 
-.sign-up {
+button.sign-up {
     width: 100px;
     height: 28px;
     background: #3882f6;
