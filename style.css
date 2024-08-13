@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: Roboto, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #1F2937;
+    padding: 16px 100px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-1 {
+    padding: 100px 0;
+    display: flex;
+}
+
+.content-1 .text {
+    padding-right: 32px;
+    flex: auto;
+}
+
+.corsica-pic {
+    align-self: center;
+    width: auto;
+    height: 300px;
+    flex: auto;
+}
+
+.title-description {
+    margin-bottom: 16px;
+}
+
+.sign-up {
+    width: 100px;
+    height: 28px;
+    background: #3882f6;
+    border-style: none;
+    border-radius: 8px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+
+a {
+    text-decoration: none;
+}
