@@ -8,7 +8,7 @@ body {
 
 .header {
     background: #1F2937;
-    padding: 16px 100px;
+    padding: 16px 150px;
 }
 
 .logo {
@@ -48,7 +48,7 @@ body {
     align-self: center;
     width: auto;
     height: 300px;
-    flex: auto;
+    flex: 0 0 auto;
 }
 
 .title-desc {
@@ -72,7 +72,44 @@ ul {
     gap: 16px;
 }
 
-
 a {
     text-decoration: none;
+}
+
+.illustrations {
+    text-align: center;
+    padding: 0 150px;
+}
+
+.illustrations .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 38px;
+}
+
+.content-2 {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-desc {
+    max-width: 160px;
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.icon {
+    width: 96px;
+    height: 96px;
+    flex: initial;
+    margin-bottom: 16px;
 }
